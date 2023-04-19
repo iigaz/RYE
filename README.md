@@ -1,6 +1,10 @@
 # RYE
 
-> Remove Youtube Embeds
+> Remove Youtube Embeds - расширение для оптимизации загрузки edu.kpfu.ru.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/iigaz/RYE/main/logo.png" width=300 heigth=300 />
+</p>
 
 ### Установка
 
