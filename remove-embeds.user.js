@@ -69,7 +69,7 @@ function initializeSettingsMenu() {
 		<li class="dropdown-item dropdown-input" id="re-dropdown-quality-low"><label><input type="radio" name="re-quality"> Плохое</label></li>
 		<li class="dropdown-item dropdown-input" id="re-dropdown-quality-default"><label><input type="radio" name="re-quality"> По-умолчанию</label></li>
 	</ul>`;
-  document.getElementById("header").appendChild(a);
+  document.getElementById("topBar").appendChild(a);
   var enabledElement = document.getElementById("re-dropdown-enabled");
   var openInNewTabElement = document.getElementById(
     "re-dropdown-open-in-new-tab"
