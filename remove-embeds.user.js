@@ -59,7 +59,7 @@ function initializeSettingsMenu() {
 		Настройки RYE
 	</button>
 	<ul class="dropdown-menu menu dropdown-menu-right align-tr-br">
-		<li class="dropdown-item dropdown-input" id="re-dropdown-enabled"><label><input type="checkbox"> Включить/выключить</label></li>
+		<li class="dropdown-item dropdown-input" id="re-dropdown-enabled"><label><input type="checkbox"> Включить</label></li>
 		<li class="dropdown-item dropdown-input" id="re-dropdown-open-in-new-tab"><label><input type="checkbox"> Открывать видео в новых вкладках</label></li>
 		<li class="dropdown-item dropdown-input" id="re-dropdown-show-thumbnails"><label><input type="checkbox"> Показывать изображения</label></li>
 		<li class="dropdown-item" id="re-dropdown-quality-label">Качество изображений:</li>
@@ -69,6 +69,7 @@ function initializeSettingsMenu() {
 		<li class="dropdown-item dropdown-input" id="re-dropdown-quality-low"><label><input type="radio" name="re-quality"> Плохое</label></li>
 		<li class="dropdown-item dropdown-input" id="re-dropdown-quality-default"><label><input type="radio" name="re-quality"> По-умолчанию</label></li>
 	</ul>`;
+  a.style.marginLeft = "0.5rem";
   document.getElementById("topBar").appendChild(a);
   var enabledElement = document.getElementById("re-dropdown-enabled");
   var openInNewTabElement = document.getElementById(
