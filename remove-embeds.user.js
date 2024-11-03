@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name        Remove Youtube Embeds - edu.kpfu.ru
-// @match       https://edu.kpfu.ru/course/view.php
+// @match       https://edu.kpfu.ru/*
 // @grant       none
-// @version     2.1
+// @version     2.2
 // @author      iigaz
 // @icon        https://raw.githubusercontent.com/iigaz/RYE/main/logo.png
 // @description Сайт edu.kpfu.ru загружается слишком долго на курсах. Проблема в том, что открытие курса подгружает все видео заранее. Этот скрипт заменяет встроенные видео на ссылку на них на ютубе, увеличивая скорость загрузки курса.
